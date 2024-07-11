@@ -1,0 +1,326 @@
+.App {
+  text-align: center;
+}
+
+.table-striped{
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-top: 75px;
+  font-size: large;
+  color: black;
+  background-color:rgb(182, 216, 193) ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  position: absolute; top: 190px; left: 700px;
+}
+
+.tab-head1 {
+  padding: 15px 10px;
+  background-color:  rgb(29, 122, 60);
+  color: hsla(0, 0%, 17%, 1);
+
+}
+
+tr:hover {
+  background-color: rgb(220, 226, 230);
+
+}
+
+th {
+  background-color: rgb(29, 122, 60);
+}
+
+/* .Navbar{
+  text-align: left;
+  color: blue;
+  background-color: darkorange;
+  text-shadow: #282c34;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  font-style: italic;
+  font-weight: 500;
+  box-shadow: #282c34 50px;
+} */
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: black;
+  margin-top: 50px;
+  margin-left: 80px;    
+  
+}
+
+.head-prop-search {
+  margin-left: 775px; 
+  
+}
+
+.wrapper {
+  border-radius: 3px;
+  text-align: center;
+  border: solid;
+  border-color:  rgb(29, 122, 60);
+  width: 400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.filter-card{
+  border: solid;
+  border-color:  rgb(29, 122, 60);
+  width: fit-content;
+}
+
+.prop-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 40px;
+  gap: 1.5rem;  
+}
+
+.filterform {
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193); 
+  position: absolute; top: 190px; left: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 0;
+  list-style: none;
+  font-weight: 450;
+  margin-top: 0;
+  box-shadow: 0 8px 4px 0 rgba(0,0,0,.2);
+  background-color: rgb(182, 216, 193);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+.sellerbutton, .buyerbutton, .bookingbutton {
+  text-align: center;
+}
+
+.propbutton {
+  text-align: center;
+}
+
+
+
+.items-grid { 
+
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+
+} 
+
+.reg-seller, .reg-buyer, .manage-booking {
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193); 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  
+}
+
+.mng-property, .propsearch {
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  /* margin-left: 160px; */
+  margin: auto;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193); 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  
+}
+  
+/* .propsearch{
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-right: 75px;
+  margin-top: 75px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:rgb(182, 216, 193);
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+} */
+
+
+
+.formtitle{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+/* .sellerform{
+  padding: 10px;
+  text-align: left;
+  border-style: solid;
+  width: fit-content;
+  border-color: rgb(29, 122, 60);
+  margin-left: 20px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(29, 122, 60);
+  background-color:rgb(182, 216, 193) ;
+} */
+
+nav a:hover {
+  text-decoration: underline;
+  
+}
+
+nav p,
+a {
+  margin: 0;
+  color: #444444;
+  text-decoration: none;
+}
+
+nav h1 {
+
+  text-align: center;
+  /* margin: 1; */
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 2.5rem;
+  background-color: rgb(29, 122, 60);
+  color:whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+nav h1 {
+
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* li {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(114, 179, 134);
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+  li:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  } */
+
+  .Navbar1 {
+    border: none;
+    background: rgb(114, 179, 134);
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    /* text-transform: uppercase; */
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+    .Navbar1:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    } 
+    
+    
